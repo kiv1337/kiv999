@@ -1,0 +1,149 @@
+
+body{
+  background: url(https://n1s2.hsmedia.ru/cf/88/d3/cf88d39873378d3d275019d140ae7fda/728x485_1_e8495108584b698cfca878c27dd87a93@4046x2696_0xac120003_20561280881659471390.jpeg);
+}
+.fon{ 
+     background:url(https://n1s2.hsmedia.ru/cf/88/d3/cf88d39873378d3d275019d140ae7fda/728x485_1_e8495108584b698cfca878c27dd87a93@4046x2696_0xac120003_20561280881659471390.jpeg);
+    height: 930px;
+    width: 1850px;
+    position: relative;
+  }
+  .block {
+    top: -70px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    animation-name: ani;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .block 2{
+    top: -70px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    animation-name: ani2;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .block3 {
+    top: -70px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    animation-name: ani3;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .block4 {
+    top: -70px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    animation-name: ani4;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+    
+
+
+.block8 {
+    height: 50px;
+    width: 50px;
+    top: 450px;
+    position: absolute;
+    animation-name: ani8;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+.object{
+    background:url(1.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+
+  }
+  .object2 {
+    background:url(2.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    animation-name: rot;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+
+  @keyframes ani {
+    0% {
+      top: -70px;
+      left: 50px;
+      }
+     8%{
+      top:250px;
+      left:250;
+     }
+
+                      
+
+      }
+    
+    
+    
+    @keyframes ani8 {
+    0% {
+        top:450px;
+        left:905px;
+    }                                               
+    16% {
+    top: 450px;
+    left: 500px;
+    }
+    32% {
+    top:450px;
+    left:1310px;
+    }
+    48% {
+    top:450px;
+    left:905px;
+    }
+    64% {
+    top:200px;
+    left:905px;
+    }
+    80%{
+    top: 720px;
+    left: 905px;
+    }
+    100%{
+        top:450px;
+        left:905px;
+    }
+    }
+
+  
+                  
+  
